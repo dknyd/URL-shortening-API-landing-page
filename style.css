@@ -1,0 +1,696 @@
+:root{
+    --Cyan: hsl(180, 66%, 49%);
+    --Dark-Violet: hsl(257, 27%, 26%);
+    --Red: hsl(0, 87%, 67%);
+    --Gray: hsl(0, 0%, 75%);
+    --Grayish-Violet: hsl(257, 7%, 63%);
+    --Very-Dark-Blue: hsl(255, 11%, 22%);
+    --Very-Dark-Violet: hsl(260, 8%, 14%);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*****ALL VIEW*****/
+body, html{
+    min-height: 100vh;
+    margin: 0px;
+    background-color: #eff0f5; 
+    overflow-x: hidden;
+}
+
+
+/* navbar */
+.navbar{
+    padding: 0px;
+   
+  }
+
+
+.nav-link{
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: var(--Very-Dark-Violet)
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.buttonLogin{
+    color: var(--Very-Dark-Blue);
+}
+
+.buttonLogin:hover{
+    cursor: pointer;
+}
+
+.buttonSignup{
+    color: white;
+    background-color: var(--Cyan);
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+.buttonSignup:hover{
+    cursor: pointer;
+    background: #9be3e2;
+    border: 3px solid #9be3e2;
+    color: #fff;
+}
+
+.buttonGetStarted:hover{
+    cursor: pointer;
+    background: #9be3e2;
+    border: 3px solid #9be3e2;
+    color: #fff;
+}
+
+.buttonShortenIt:hover{
+    cursor: pointer;
+    background: #9be3e2;
+    border: 3px solid #9be3e2;
+    color: #fff;
+}
+
+/* container1 */
+.container1{
+    display: flex;
+ 
+    background-color: white;
+}
+
+.container1B{
+    max-width: 50vw;
+    height: auto;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.container1AParagraph{
+    color: var(--Grayish-Violet);
+}
+
+.buttonGetStarted{
+    color: white;
+    background-color: var(--Cyan);
+    width: 9rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+    /* container2 */
+.container2{
+    width: 100%;
+    flex-direction: column;
+    /* background-image: linear-gradient(to bottom, white 50%, #eff0f5 50%); */
+}
+
+
+.containerLinkShare{
+    height: 7rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+    }
+
+    .containerInputAndButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .inputField{
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    }
+
+    .buttonShortenIt{
+    color: white;
+    background-color: var(--Cyan);
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    }
+
+ 
+
+    .buttonCopy{
+        color: white;
+        background-color: var(--Cyan);
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        font-weight: 700;
+    }
+
+    .buttonCopy:hover{
+        cursor: pointer;
+        background: #9be3e2;
+        border: 3px solid #9be3e2;
+        color: #fff;
+    }
+    
+    /* container3 */
+    .container3{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    h3{
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    .container3Paragraph{
+        color: var(--Grayish-Violet);
+        font-size: 1.125rem;
+        text-align: center;
+    }
+
+    /* container4 */
+    .lineContainer4{
+      height: 0.5rem;
+      background-color: var(--Cyan);
+      /* top: 25rem; */
+    }
+
+
+    .container4{
+        display: flex;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .container4A, .container4B, .container4C{
+        background-color: white;
+        padding: 1rem;
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    h4{
+        font-weight: 700;
+    }
+
+    .container4Paragraph{
+        color: var(--Grayish-Violet);
+    }
+
+    .container4 img{
+        background-color: var(--Dark-Violet);
+        padding: 1rem;
+        border-radius: 50%;
+        position: relative;
+        bottom: 3rem;
+    }
+
+    /* container5 */
+
+    .container5{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .boostYourLinks{
+      color: white;
+      font-size: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem;
+    }
+
+    .container5 .buttonGetStarted{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* container6 */
+    .container6{
+        background-color: var(--Very-Dark-Violet);
+        display: flex;
+    }
+
+    .logoBottom{
+      filter: invert(1) brightness(3);
+    }
+
+    ul{
+        list-style: none;
+        color: var(--Gray);
+    }
+
+    .listTop{
+        color: white;
+        margin-bottom: 1.5rem;
+    }
+
+    li{
+      margin-bottom: 1rem;
+    }
+
+    .socialLogo:hover{
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(60%) sepia(40%) saturate(1200%) hue-rotate(130deg) brightness(106%) contrast(100%);
+    }
+
+    .listElement:hover{
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(60%) sepia(40%) saturate(1200%) hue-rotate(130deg) brightness(106%) contrast(100%);
+    }
+
+
+    
+/*****MOBILE VIEW*****/
+@media screen and (max-width: 768px){
+    /* navbar */
+    #navbarNav{
+        background-color: #3b3054;
+        /* display: flex; */
+        flex-direction: column;
+        border-radius: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .buttonLogin{
+        margin-bottom: 1rem;
+        color: white;
+        font-weight: 700;
+        margin-left: 45%;
+
+    }
+
+    .buttonSignup{
+        width: 80%;
+        margin-bottom: 2rem;
+        margin-left: 10%;
+    }
+
+    .nav-link{
+        color: white !important;
+    }
+
+
+    .lineCollapse{
+        background-color: var(--Grayish-Violet);
+        height: 0.5px;
+        width: 80%;
+    }
+
+    /* container1 */
+    .container1{
+        flex-direction: column-reverse;
+    }
+
+    .container1A{
+        text-align: center;
+    }
+
+    .container1B img{
+        width: 100%;
+        height: 100%;
+        margin-left: 5rem;
+    }
+
+    .buttonGetStarted{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* container2 */
+    .container2{
+      padding-top: 3rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+   
+ 
+    .containerLinkShare{
+        background: #3b3054;
+        background-image:url('images/bg-shorten-desktop.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 10rem;
+     }
+
+     .containerInputAndButton{
+        flex-direction: column;
+     }
+
+     .inputField{
+        height: 2.5rem;
+        width: 90%;
+        border-radius: 0.5rem;
+        margin-right: 0.5rem;
+        border: 0px;
+        margin: 0px;
+     }
+
+     .buttonShortenIt{
+        width: 90%;
+        margin-top: 1rem;
+     }
+
+
+     .newLinkContainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .originalLinkContainer{
+        font-size: 700;
+    }
+
+    .shortenedLinkContainer{
+        color: var(--Cyan)
+    }
+
+    .newLinkLine{
+        color: grey;
+        width: 100%;
+    }
+
+    .buttonCopy{
+        width: 14rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    /* container3 */
+    /* container4 */
+    .container4{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+
+    .lineContainer4{
+      transform: rotate(90deg);
+      position: relative;
+        top: 25rem;
+    }
+
+    .container4A, .container4B, .container4C{
+        margin-top: 1rem;
+    }
+
+    /* container5 */
+
+    .container5{
+        background-image: url('images/bg-boost-desktop.svg');
+        background-color:  #3b3054; 
+        width: 100%;
+        height: 15rem;
+  }
+    /* container6 */
+    .container6{
+        padding-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul{
+        text-align: center;
+        
+    }
+
+    .container6 ul{
+        margin-right: 3rem;
+    }
+
+}
+
+
+
+
+
+/*****DESKTOP VIEW*****/
+@media screen and (min-width: 769px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    /* navbar */
+    .navbar{
+        width: 100;
+        padding-left: 7.5%;
+        padding-right: 7.5;
+    }
+
+    .buttonLogin{
+        margin-right: 2rem;
+        margin-left: auto;
+    }
+
+    .buttonSignup{
+      margin-right: 5rem;
+    }
+
+    .lineCollapse{
+        visibility: none;
+        position: absolute;
+
+    }
+
+    /* container1 */
+    .container1{
+        flex-direction: row;
+        width: 100%;
+        align-self: center;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 5rem;
+        margin-bottom: 3rem;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .container1A{
+        margin-top: 2rem;
+    }
+
+
+    .container1AParagraph{
+        font-size: 1.375rem;
+    }
+
+
+    h1{
+        font-size: 5rem;
+    }
+
+    .container1B{
+        overflow: hidden;
+        
+    }
+
+    .container1BImage{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .buttonGetStarted{
+        margin-top: 3rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        width: 11rem;
+        height: 2.5rem;
+    }
+
+    .newLinkLine{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    /* container2 */
+
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerLinkShare{
+        background: #3b3054;
+        background-image:url('images/bg-shorten-desktop.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 85%;
+        height: 170px;
+     }
+
+     .containerInputAndButton{
+      width: 100%;
+     }
+
+     .inputField{
+        font-size: 1.25rem;
+        height: 65px;
+        border-radius: 0.5rem;
+        margin-right: 2rem;
+        width: 70%;
+        margin-left: 3rem;
+     }
+
+     .buttonShortenIt{
+        font-weight: 700;
+        font-size: 1.25rem;
+        width: 10rem;
+        margin-right: 2rem;
+        height: 60px;
+     }
+
+
+
+     .newLinkContainer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        width: 85%;
+        justify-content: space-between;
+    }
+
+    .newLinkLine{
+        position: absolute;
+        visibility: none;
+    }
+
+    .originalLinkContainer{
+        font-size: 700;
+        flex: 1 1 30%; /* Initial width of child divs is 30% */
+        max-width: 33.3%; /* Maximum width of child divs is 33.3% */
+        min-width: 0; /* Allow child divs to shrink if necessary */
+        overflow:hidden
+    }
+
+    .shortenedLinkContainer{
+        color: var(--Cyan);
+    }
+
+    .newLinkLine{
+        color: grey;
+        width: 100%;
+    }
+    .buttonCopy{
+        width: 15rem;
+    }
+
+
+    /* container3 */
+    .container3Paragraph{
+        padding-right: auto;
+        padding-left: auto;
+    }
+
+
+    /* container4 */
+     .container4{
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+     }
+
+
+     hr{
+      position: relative;
+      top: 14rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+
+    .container4A, .container4B, .container4C{
+        margin-left: 2rem;
+    }
+
+    .container4A{
+        position: relative;
+        bottom: 2rem;
+    }
+
+    .container4B{
+      position: relative;
+  }
+
+    .container4C{
+        position: relative;
+        top: 2rem;
+    }
+
+    .container4 img{
+        position: relative;
+        bottom: 3rem;
+    }
+
+    /* container5 */
+
+    .container5{
+        background-image: url('images/bg-boost-desktop.svg');
+        background-color:  #3b3054;
+        width: 100%;
+        height: 15rem;
+  }
+
+  .container5 .buttonGetStarted{
+    margin-top: 0px;
+    font-weight: 700;
+
+}
+
+
+
+    /* container6 */
+    .container6{
+      justify-content: space-between;
+      padding-left: 13rem;
+      padding-right: 13rem;
+      padding-top: 5rem;
+    }
+
+    .container6A{
+      display: flex;
+    }
+
+    .socialLogo{
+        margin-left: 1rem;
+    }
+
+}
